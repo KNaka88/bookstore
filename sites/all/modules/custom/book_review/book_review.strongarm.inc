@@ -70,6 +70,9 @@ function book_review_strongarm() {
         'title' => array(
           'weight' => '0',
         ),
+        'path' => array(
+          'weight' => '6',
+        ),
       ),
       'display' => array(),
     ),
@@ -115,6 +118,13 @@ function book_review_strongarm() {
   $strongarm->name = 'node_submitted_book_review';
   $strongarm->value = 1;
   $export['node_submitted_book_review'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pathauto_node_book_review_pattern';
+  $strongarm->value = 'bookreview/[node:title]';
+  $export['pathauto_node_book_review_pattern'] = $strongarm;
 
   return $export;
 }
