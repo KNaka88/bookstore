@@ -157,10 +157,10 @@ function new_books_field_default_field_instances() {
         'module' => 'fivestar',
         'settings' => array(
           'expose' => TRUE,
-          'style' => 'average',
+          'style' => 'user',
           'text' => 'average',
           'widget' => array(
-            'fivestar_widget' => NULL,
+            'fivestar_widget' => 'sites/all/modules/fivestar/widgets/hearts/hearts.css',
           ),
         ),
         'type' => 'fivestar_formatter_default',
