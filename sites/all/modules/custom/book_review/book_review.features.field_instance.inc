@@ -183,7 +183,7 @@ function book_review_field_default_field_instances() {
       'module' => 'fivestar',
       'settings' => array(
         'widget' => array(
-          'fivestar_widget' => 'sites/all/modules/fivestar/widgets/hearts/hearts.css',
+          'fivestar_widget' => 'default',
         ),
       ),
       'type' => 'stars',
