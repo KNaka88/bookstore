@@ -35,4 +35,5 @@ features[variable][] = node_options_book_review
 features[variable][] = node_preview_book_review
 features[variable][] = node_submitted_book_review
 features[variable][] = pathauto_node_book_review_pattern
+features[views_view][] = new_books
 project path = sites/all/modules/custom
