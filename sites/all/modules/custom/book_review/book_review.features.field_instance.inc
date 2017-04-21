@@ -155,15 +155,8 @@ function book_review_field_default_field_instances() {
       'default' => array(
         'label' => 'above',
         'module' => 'fivestar',
-        'settings' => array(
-          'expose' => TRUE,
-          'style' => 'average',
-          'text' => 'average',
-          'widget' => array(
-            'fivestar_widget' => NULL,
-          ),
-        ),
-        'type' => 'fivestar_formatter_default',
+        'settings' => array(),
+        'type' => 'fivestar_formatter_rating',
         'weight' => 2,
       ),
       'teaser' => array(
