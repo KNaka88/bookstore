@@ -1,0 +1,80 @@
+a .imageblock-image {
+  background-attachment: scroll;
+  background-position: 50% 50%;
+}
+
+#block-imageblock-3 h2 {
+  text-align: center;
+  font-family: 'Palatino Linotype',Palatino,Serif;
+  color: #8a6d8a;
+}
+
+#block-imageblock-2 h2 {
+  text-align: center;
+  font-family: 'Palatino Linotype',Palatino,Serif;
+  color: #8a6d8a;
+}
+
+.content .block-image {
+  text-align: left;
+}
+
+.region #block-imageblock-3 {
+  text-align: center;
+  background-color: #fcfff0;
+}
+
+.region-footer2 .block-image {
+  text-align: center;
+}
+
+.region #block-imageblock-2 {
+  text-align: center;
+  background-color: #fcfff0;
+}
+
+.region-footer3 #block-imageblock-2 .content .block-image {
+  text-align: center;
+}
+
+#block-views-new-books-block h2 {
+  text-align: center;
+  font-family: 'Times New Roman',Times,Serif;
+  color: #8a6d8a;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+}
+
+.region #block-views-new-books-block {
+  padding-top: 0px;
+  border-top-width: 0px;
+  margin-top: 0px;
+  background-color: #fcfff0;
+}
+
+.field-content a {
+  padding-top: 0px;
+}
+
+.view-content .views-row {
+  padding-top: 3px;
+  padding-bottom: 9px;
+}
+
+#sidebar-subsidiary .textwidget {
+  background-color: #fcfff2;
+}
+
+#branding a {
+  font-family: 'Lucida Sans','Lucida Grande',Sans-Serif;
+  font-weight: normal;
+  text-decoration: none;
+  color: #7a7464;
+  padding-bottom: 0px;
+  border-bottom-width: 0px;
+  line-height: 34px;
+  font-size: 40px;
+}
+
