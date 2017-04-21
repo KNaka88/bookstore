@@ -51,7 +51,7 @@ function book_review_field_default_field_instances() {
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 2,
+      'weight' => 3,
     ),
   );
 
@@ -144,7 +144,7 @@ function book_review_field_default_field_instances() {
         ),
       ),
       'type' => 'stars',
-      'weight' => 3,
+      'weight' => 2,
     ),
   );
 
